@@ -27,7 +27,7 @@ const defaultTransition = ['slide', 'fade']
 
 const Presentation = () => (
   <Deck transition={['zoom', 'slide']} transitionDuration={500} theme={theme}>
-    <Slide transition={['zoom']} bgColor={colors.primary}>
+    <Slide transition={['zoom']} bgColor={colors.white}>
       <Heading size={1} fit caps lineHeight={1} textColor={colors.black}>
         Your amazing talk title here!
       </Heading>
@@ -42,7 +42,7 @@ const Presentation = () => (
       bgImage={narutoBg}
       bgDarken={0.82}
     >
-      <Text textColor={colors.primary} padding='28' textSize='2em'>
+      <Text textColor={colors.white} padding='28' textSize='2em'>
         Who's talking:
       </Text>
       <Text textColor={colors.grey} padding='12' textSize='2.8em'>
@@ -54,11 +54,11 @@ const Presentation = () => (
     </Slide>
     <Slide
       transition={['slide']}
-      bgColor={colors.primary}
+      bgColor={colors.white}
       bgImage={clapsBg}
       align='flex-end flex-end'
     >
-      <Heading size={2} caps lineHeight={1} textColor={colors.primary} textFont='secondary'>
+      <Heading size={2} caps lineHeight={1} textColor={colors.white} textFont='secondary'>
         Thanks {'<3'}
       </Heading>
     </Slide>
